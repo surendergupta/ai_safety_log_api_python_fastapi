@@ -9,7 +9,7 @@ import uvicorn
 app = FastAPI()
 
 # MongoDB Connection
-MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017")
+MONGO_URI = os.getenv("MONGO_URI")
 client = AsyncIOMotorClient(MONGO_URI)
 db = client.ai_safety_log_api_db
 collection = db.incidents
