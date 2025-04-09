@@ -3,6 +3,8 @@
 ## Overview
 This is a FastAPI-based Incident Management API that allows users to create, retrieve, and delete incidents stored in a MongoDB database.
 
+![FastAPI Incident API](flow_diagram.png)
+
 ## Features
 - Create an incident
 - Retrieve all incidents
